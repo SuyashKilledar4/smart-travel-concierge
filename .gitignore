@@ -1,0 +1,8 @@
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+recordings/
+lofi_music.wav
+deployment_metadata.json
+.DS_Store

@@ -1,0 +1,471 @@
+=== Starting server at 2026-09-24T08:53:02.627689+00:00 ===
+Command: /config/.gemini/antigravity/scratch/simple-agent/.venv/bin/adk api_server --host 127.0.0.1 --port 18080 --reload_agents --no-reload .
+CWD: /config/.gemini/antigravity/scratch/simple-agent
+=== Started server process 247200 ===
+2026-09-24 08:53:05,324 - INFO - service_factory.py:266 - Using in-memory memory service
+2026-09-24 08:53:05,325 - INFO - local_storage.py:89 - Using per-agent session storage rooted at /config/.gemini/antigravity/scratch/simple-agent
+2026-09-24 08:53:05,325 - INFO - local_storage.py:121 - Using per-agent artifact storage rooted at /config/.gemini/antigravity/scratch/simple-agent
+/config/.gemini/antigravity/scratch/simple-agent/.venv/lib/python3.13/site-packages/google/adk/cli/fast_api.py:278: UserWarning: [EXPERIMENTAL] InMemoryCredentialService: This feature is experimental and may change or be removed in future versions without notice. It may introduce breaking changes at any time.
+  credential_service = InMemoryCredentialService()
+/config/.gemini/antigravity/scratch/simple-agent/.venv/lib/python3.13/site-packages/google/adk/auth/credential_service/in_memory_credential_service.py:33: UserWarning: [EXPERIMENTAL] BaseCredentialService: This feature is experimental and may change or be removed in future versions without notice. It may introduce breaking changes at any time.
+  super().__init__()
+INFO:     Started server process [247200]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://127.0.0.1:18080 (Press CTRL+C to quit)
+INFO:     127.0.0.1:48872 - "GET / HTTP/1.1" 404 Not Found
+2026-09-24 08:53:05,959 - INFO - local_storage.py:65 - Creating local session service at /config/.gemini/antigravity/scratch/simple-agent/app/.adk/session.db
+2026-09-24 08:53:05,989 - INFO - api_server.py:1110 - New session created: 220f978f-0dbe-4d39-bdb7-b7b2ddfbe17a
+INFO:     127.0.0.1:48878 - "POST /apps/app/users/cli-user/sessions HTTP/1.1" 200 OK
+2026-09-24 08:53:05,999 - INFO - envs.py:83 - Loaded .env file for app at /config/.gemini/antigravity/scratch/simple-agent/.env
+INFO:     127.0.0.1:48882 - "POST /run_sse HTTP/1.1" 200 OK
+/config/.gemini/antigravity/scratch/simple-agent/.venv/lib/python3.13/site-packages/google/adk/models/llm_request.py:298: UserWarning: [EXPERIMENTAL] feature FeatureName.JSON_SCHEMA_FOR_FUNC_DECL is enabled.
+  declaration = tool._get_declaration()
+2026-09-24 08:53:06,887 - INFO - google_llm.py:255 - Sending out request, model: gemini-flash-latest, backend: GoogleLLMVariant.VERTEX_AI, stream: False
+2026-09-24 08:53:08,094 - INFO - google_llm.py:352 - Response received from the model.
+2026-09-24 08:53:08,117 - INFO - google_llm.py:255 - Sending out request, model: gemini-flash-latest, backend: GoogleLLMVariant.VERTEX_AI, stream: False
+2026-09-24 08:53:09,332 - INFO - google_llm.py:352 - Response received from the model.
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+2026-09-24 08:53:09,509 - INFO - runners.py:2181 - Closing runner...
+2026-09-24 08:53:09,509 - INFO - runners.py:2194 - Runner closed.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [247200]
+=== Starting server at 2026-09-24T08:53:16.467470+00:00 ===
+Command: /config/.gemini/antigravity/scratch/simple-agent/.venv/bin/adk api_server --host 127.0.0.1 --port 18080 --reload_agents --no-reload .
+CWD: /config/.gemini/antigravity/scratch/simple-agent
+=== Started server process 247269 ===
+2026-09-24 08:53:17,637 - INFO - service_factory.py:266 - Using in-memory memory service
+2026-09-24 08:53:17,638 - INFO - local_storage.py:89 - Using per-agent session storage rooted at /config/.gemini/antigravity/scratch/simple-agent
+2026-09-24 08:53:17,638 - INFO - local_storage.py:121 - Using per-agent artifact storage rooted at /config/.gemini/antigravity/scratch/simple-agent
+/config/.gemini/antigravity/scratch/simple-agent/.venv/lib/python3.13/site-packages/google/adk/cli/fast_api.py:278: UserWarning: [EXPERIMENTAL] InMemoryCredentialService: This feature is experimental and may change or be removed in future versions without notice. It may introduce breaking changes at any time.
+  credential_service = InMemoryCredentialService()
+/config/.gemini/antigravity/scratch/simple-agent/.venv/lib/python3.13/site-packages/google/adk/auth/credential_service/in_memory_credential_service.py:33: UserWarning: [EXPERIMENTAL] BaseCredentialService: This feature is experimental and may change or be removed in future versions without notice. It may introduce breaking changes at any time.
+  super().__init__()
+INFO:     Started server process [247269]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://127.0.0.1:18080 (Press CTRL+C to quit)
+INFO:     127.0.0.1:34820 - "GET / HTTP/1.1" 404 Not Found
+2026-09-24 08:53:17,990 - INFO - local_storage.py:65 - Creating local session service at /config/.gemini/antigravity/scratch/simple-agent/app/.adk/session.db
+2026-09-24 08:53:18,000 - INFO - api_server.py:1110 - New session created: 11acb590-aac1-4f1c-adc1-390eb76abdfa
+INFO:     127.0.0.1:34826 - "POST /apps/app/users/cli-user/sessions HTTP/1.1" 200 OK
+2026-09-24 08:53:18,010 - INFO - envs.py:83 - Loaded .env file for app at /config/.gemini/antigravity/scratch/simple-agent/.env
+INFO:     127.0.0.1:34840 - "POST /run_sse HTTP/1.1" 200 OK
+/config/.gemini/antigravity/scratch/simple-agent/.venv/lib/python3.13/site-packages/google/adk/models/llm_request.py:298: UserWarning: [EXPERIMENTAL] feature FeatureName.JSON_SCHEMA_FOR_FUNC_DECL is enabled.
+  declaration = tool._get_declaration()
+2026-09-24 08:53:18,397 - INFO - google_llm.py:255 - Sending out request, model: gemini-flash-latest, backend: GoogleLLMVariant.VERTEX_AI, stream: False
+2026-09-24 08:53:19,785 - INFO - google_llm.py:352 - Response received from the model.
+2026-09-24 08:53:19,807 - INFO - google_llm.py:255 - Sending out request, model: gemini-flash-latest, backend: GoogleLLMVariant.VERTEX_AI, stream: False
+2026-09-24 08:53:20,548 - INFO - google_llm.py:352 - Response received from the model.
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+2026-09-24 08:53:20,719 - INFO - runners.py:2181 - Closing runner...
+2026-09-24 08:53:20,719 - INFO - runners.py:2194 - Runner closed.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [247269]
+=== Starting server at 2026-09-24T08:57:29.959757+00:00 ===
+Command: /config/.gemini/antigravity/scratch/simple-agent/.venv/bin/adk api_server --host 127.0.0.1 --port 18080 --reload_agents --no-reload .
+CWD: /config/.gemini/antigravity/scratch/simple-agent
+=== Started server process 248342 ===
+2026-09-24 08:57:31,120 - INFO - service_factory.py:266 - Using in-memory memory service
+2026-09-24 08:57:31,120 - INFO - local_storage.py:89 - Using per-agent session storage rooted at /config/.gemini/antigravity/scratch/simple-agent
+2026-09-24 08:57:31,121 - INFO - local_storage.py:121 - Using per-agent artifact storage rooted at /config/.gemini/antigravity/scratch/simple-agent
+/config/.gemini/antigravity/scratch/simple-agent/.venv/lib/python3.13/site-packages/google/adk/cli/fast_api.py:278: UserWarning: [EXPERIMENTAL] InMemoryCredentialService: This feature is experimental and may change or be removed in future versions without notice. It may introduce breaking changes at any time.
+  credential_service = InMemoryCredentialService()
+/config/.gemini/antigravity/scratch/simple-agent/.venv/lib/python3.13/site-packages/google/adk/auth/credential_service/in_memory_credential_service.py:33: UserWarning: [EXPERIMENTAL] BaseCredentialService: This feature is experimental and may change or be removed in future versions without notice. It may introduce breaking changes at any time.
+  super().__init__()
+INFO:     Started server process [248342]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://127.0.0.1:18080 (Press CTRL+C to quit)
+INFO:     127.0.0.1:35356 - "GET / HTTP/1.1" 404 Not Found
+2026-09-24 08:57:31,481 - INFO - local_storage.py:65 - Creating local session service at /config/.gemini/antigravity/scratch/simple-agent/app/.adk/session.db
+2026-09-24 08:57:31,492 - INFO - api_server.py:1110 - New session created: 65680fcb-8af8-43a4-964b-0f3a54f682fb
+INFO:     127.0.0.1:35360 - "POST /apps/app/users/cli-user/sessions HTTP/1.1" 200 OK
+2026-09-24 08:57:31,504 - INFO - envs.py:83 - Loaded .env file for app at /config/.gemini/antigravity/scratch/simple-agent/.env
+INFO:     127.0.0.1:35368 - "POST /run_sse HTTP/1.1" 200 OK
+/config/.gemini/antigravity/scratch/simple-agent/.venv/lib/python3.13/site-packages/google/adk/models/llm_request.py:298: UserWarning: [EXPERIMENTAL] feature FeatureName.JSON_SCHEMA_FOR_FUNC_DECL is enabled.
+  declaration = tool._get_declaration()
+2026-09-24 08:57:31,896 - INFO - google_llm.py:255 - Sending out request, model: gemini-flash-latest, backend: GoogleLLMVariant.VERTEX_AI, stream: False
+2026-09-24 08:57:33,559 - INFO - google_llm.py:352 - Response received from the model.
+2026-09-24 08:57:33,583 - INFO - google_llm.py:255 - Sending out request, model: gemini-flash-latest, backend: GoogleLLMVariant.VERTEX_AI, stream: False
+2026-09-24 08:57:35,280 - INFO - google_llm.py:352 - Response received from the model.
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+2026-09-24 08:57:35,419 - INFO - runners.py:2181 - Closing runner...
+2026-09-24 08:57:35,419 - INFO - runners.py:2194 - Runner closed.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [248342]
+=== Starting server at 2026-09-24T08:58:59.113280+00:00 ===
+Command: /config/.gemini/antigravity/scratch/simple-agent/.venv/bin/adk api_server --host 127.0.0.1 --port 18080 --reload_agents --no-reload .
+CWD: /config/.gemini/antigravity/scratch/simple-agent
+=== Started server process 248706 ===
+2026-09-24 08:59:00,297 - INFO - service_factory.py:266 - Using in-memory memory service
+2026-09-24 08:59:00,298 - INFO - local_storage.py:89 - Using per-agent session storage rooted at /config/.gemini/antigravity/scratch/simple-agent
+2026-09-24 08:59:00,298 - INFO - local_storage.py:121 - Using per-agent artifact storage rooted at /config/.gemini/antigravity/scratch/simple-agent
+/config/.gemini/antigravity/scratch/simple-agent/.venv/lib/python3.13/site-packages/google/adk/cli/fast_api.py:278: UserWarning: [EXPERIMENTAL] InMemoryCredentialService: This feature is experimental and may change or be removed in future versions without notice. It may introduce breaking changes at any time.
+  credential_service = InMemoryCredentialService()
+/config/.gemini/antigravity/scratch/simple-agent/.venv/lib/python3.13/site-packages/google/adk/auth/credential_service/in_memory_credential_service.py:33: UserWarning: [EXPERIMENTAL] BaseCredentialService: This feature is experimental and may change or be removed in future versions without notice. It may introduce breaking changes at any time.
+  super().__init__()
+INFO:     Started server process [248706]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://127.0.0.1:18080 (Press CTRL+C to quit)
+INFO:     127.0.0.1:43854 - "GET / HTTP/1.1" 404 Not Found
+2026-09-24 08:59:00,635 - INFO - local_storage.py:65 - Creating local session service at /config/.gemini/antigravity/scratch/simple-agent/app/.adk/session.db
+2026-09-24 08:59:00,645 - INFO - api_server.py:1110 - New session created: 632ada13-f9f0-40ea-8cfe-c0702b22a50b
+INFO:     127.0.0.1:43870 - "POST /apps/app/users/cli-user/sessions HTTP/1.1" 200 OK
+2026-09-24 08:59:00,656 - INFO - envs.py:83 - Loaded .env file for app at /config/.gemini/antigravity/scratch/simple-agent/.env
+INFO:     127.0.0.1:43884 - "POST /run_sse HTTP/1.1" 200 OK
+/config/.gemini/antigravity/scratch/simple-agent/.venv/lib/python3.13/site-packages/google/adk/models/llm_request.py:298: UserWarning: [EXPERIMENTAL] feature FeatureName.JSON_SCHEMA_FOR_FUNC_DECL is enabled.
+  declaration = tool._get_declaration()
+2026-09-24 08:59:01,046 - INFO - google_llm.py:255 - Sending out request, model: gemini-flash-latest, backend: GoogleLLMVariant.VERTEX_AI, stream: False
+2026-09-24 08:59:02,327 - INFO - google_llm.py:352 - Response received from the model.
+2026-09-24 08:59:02,349 - INFO - google_llm.py:255 - Sending out request, model: gemini-flash-latest, backend: GoogleLLMVariant.VERTEX_AI, stream: False
+2026-09-24 08:59:03,244 - INFO - google_llm.py:352 - Response received from the model.
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+2026-09-24 08:59:03,364 - INFO - runners.py:2181 - Closing runner...
+2026-09-24 08:59:03,364 - INFO - runners.py:2194 - Runner closed.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [248706]
+=== Starting server at 2026-09-24T09:00:02.948318+00:00 ===
+Command: /config/.gemini/antigravity/scratch/simple-agent/.venv/bin/adk api_server --host 127.0.0.1 --port 18080 --reload_agents --no-reload .
+CWD: /config/.gemini/antigravity/scratch/simple-agent
+=== Started server process 248979 ===
+2026-09-24 09:00:04,116 - INFO - service_factory.py:266 - Using in-memory memory service
+2026-09-24 09:00:04,116 - INFO - local_storage.py:89 - Using per-agent session storage rooted at /config/.gemini/antigravity/scratch/simple-agent
+2026-09-24 09:00:04,116 - INFO - local_storage.py:121 - Using per-agent artifact storage rooted at /config/.gemini/antigravity/scratch/simple-agent
+/config/.gemini/antigravity/scratch/simple-agent/.venv/lib/python3.13/site-packages/google/adk/cli/fast_api.py:278: UserWarning: [EXPERIMENTAL] InMemoryCredentialService: This feature is experimental and may change or be removed in future versions without notice. It may introduce breaking changes at any time.
+  credential_service = InMemoryCredentialService()
+/config/.gemini/antigravity/scratch/simple-agent/.venv/lib/python3.13/site-packages/google/adk/auth/credential_service/in_memory_credential_service.py:33: UserWarning: [EXPERIMENTAL] BaseCredentialService: This feature is experimental and may change or be removed in future versions without notice. It may introduce breaking changes at any time.
+  super().__init__()
+INFO:     Started server process [248979]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://127.0.0.1:18080 (Press CTRL+C to quit)
+INFO:     127.0.0.1:53088 - "GET / HTTP/1.1" 404 Not Found
+2026-09-24 09:00:04,470 - INFO - local_storage.py:65 - Creating local session service at /config/.gemini/antigravity/scratch/simple-agent/app/.adk/session.db
+2026-09-24 09:00:04,480 - INFO - api_server.py:1110 - New session created: 9ad4d264-f471-4359-b7bf-afba6880bcb5
+INFO:     127.0.0.1:53092 - "POST /apps/app/users/cli-user/sessions HTTP/1.1" 200 OK
+2026-09-24 09:00:04,493 - INFO - envs.py:83 - Loaded .env file for app at /config/.gemini/antigravity/scratch/simple-agent/.env
+INFO:     127.0.0.1:53100 - "POST /run_sse HTTP/1.1" 200 OK
+/config/.gemini/antigravity/scratch/simple-agent/.venv/lib/python3.13/site-packages/google/adk/models/llm_request.py:298: UserWarning: [EXPERIMENTAL] feature FeatureName.JSON_SCHEMA_FOR_FUNC_DECL is enabled.
+  declaration = tool._get_declaration()
+2026-09-24 09:00:04,869 - INFO - google_llm.py:255 - Sending out request, model: gemini-flash-latest, backend: GoogleLLMVariant.VERTEX_AI, stream: False
+2026-09-24 09:00:07,265 - INFO - google_llm.py:352 - Response received from the model.
+2026-09-24 09:00:07,288 - INFO - google_llm.py:255 - Sending out request, model: gemini-flash-latest, backend: GoogleLLMVariant.VERTEX_AI, stream: False
+2026-09-24 09:00:09,404 - INFO - google_llm.py:352 - Response received from the model.
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+2026-09-24 09:00:09,593 - INFO - runners.py:2181 - Closing runner...
+2026-09-24 09:00:09,593 - INFO - runners.py:2194 - Runner closed.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [248979]
+=== Starting server at 2026-09-24T09:41:45.624294+00:00 ===
+Command: /config/.gemini/antigravity/scratch/smart-travel-concierge/.venv/bin/adk api_server --host 127.0.0.1 --port 18080 --reload_agents --no-reload .
+CWD: /config/.gemini/antigravity/scratch/smart-travel-concierge
+=== Starting server at 2026-09-24T09:41:51.975059+00:00 ===
+Command: /config/.gemini/antigravity/scratch/smart-travel-concierge/.venv/bin/adk api_server --host 127.0.0.1 --port 18080 --reload_agents --no-reload .
+CWD: /config/.gemini/antigravity/scratch/smart-travel-concierge
+=== Started server process 261167 ===
+2026-09-24 09:41:54,469 - INFO - service_factory.py:266 - Using in-memory memory service
+2026-09-24 09:41:54,470 - INFO - local_storage.py:89 - Using per-agent session storage rooted at /config/.gemini/antigravity/scratch/smart-travel-concierge
+2026-09-24 09:41:54,471 - INFO - local_storage.py:121 - Using per-agent artifact storage rooted at /config/.gemini/antigravity/scratch/smart-travel-concierge
+/config/.gemini/antigravity/scratch/smart-travel-concierge/.venv/lib/python3.13/site-packages/google/adk/cli/fast_api.py:278: UserWarning: [EXPERIMENTAL] InMemoryCredentialService: This feature is experimental and may change or be removed in future versions without notice. It may introduce breaking changes at any time.
+  credential_service = InMemoryCredentialService()
+/config/.gemini/antigravity/scratch/smart-travel-concierge/.venv/lib/python3.13/site-packages/google/adk/auth/credential_service/in_memory_credential_service.py:33: UserWarning: [EXPERIMENTAL] BaseCredentialService: This feature is experimental and may change or be removed in future versions without notice. It may introduce breaking changes at any time.
+  super().__init__()
+INFO:     Started server process [261167]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://127.0.0.1:18080 (Press CTRL+C to quit)
+INFO:     127.0.0.1:35534 - "GET / HTTP/1.1" 404 Not Found
+2026-09-24 09:41:55,008 - INFO - local_storage.py:65 - Creating local session service at /config/.gemini/antigravity/scratch/smart-travel-concierge/app/.adk/session.db
+2026-09-24 09:41:55,021 - INFO - api_server.py:1110 - New session created: f623e60a-da94-421e-b5af-ef5048022b87
+INFO:     127.0.0.1:35550 - "POST /apps/app/users/cli-user/sessions HTTP/1.1" 200 OK
+2026-09-24 09:41:55,032 - INFO - envs.py:83 - Loaded .env file for app at /config/.gemini/antigravity/scratch/smart-travel-concierge/.env
+INFO:     127.0.0.1:35552 - "POST /run_sse HTTP/1.1" 200 OK
+/config/.gemini/antigravity/scratch/smart-travel-concierge/.venv/lib/python3.13/site-packages/google/adk/models/llm_request.py:298: UserWarning: [EXPERIMENTAL] feature FeatureName.JSON_SCHEMA_FOR_FUNC_DECL is enabled.
+  declaration = tool._get_declaration()
+2026-09-24 09:41:58,305 - INFO - google_llm.py:255 - Sending out request, model: gemini-flash-latest, backend: GoogleLLMVariant.VERTEX_AI, stream: False
+2026-09-24 09:41:59,590 - INFO - google_llm.py:352 - Response received from the model.
+2026-09-24 09:42:00,882 - INFO - google_llm.py:255 - Sending out request, model: gemini-flash-latest, backend: GoogleLLMVariant.VERTEX_AI, stream: False
+2026-09-24 09:42:02,130 - INFO - google_llm.py:352 - Response received from the model.
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+2026-09-24 09:42:02,280 - INFO - runners.py:2181 - Closing runner...
+2026-09-24 09:42:02,281 - INFO - runners.py:2194 - Runner closed.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [261167]
+=== Starting server at 2026-09-24T09:42:03.607865+00:00 ===
+Command: /config/.gemini/antigravity/scratch/smart-travel-concierge/.venv/bin/adk api_server --host 127.0.0.1 --port 18081 --reload_agents --no-reload .
+CWD: /config/.gemini/antigravity/scratch/smart-travel-concierge
+=== Started server process 261274 ===
+2026-09-24 09:42:04,841 - INFO - service_factory.py:266 - Using in-memory memory service
+2026-09-24 09:42:04,842 - INFO - local_storage.py:89 - Using per-agent session storage rooted at /config/.gemini/antigravity/scratch/smart-travel-concierge
+2026-09-24 09:42:04,843 - INFO - local_storage.py:121 - Using per-agent artifact storage rooted at /config/.gemini/antigravity/scratch/smart-travel-concierge
+/config/.gemini/antigravity/scratch/smart-travel-concierge/.venv/lib/python3.13/site-packages/google/adk/cli/fast_api.py:278: UserWarning: [EXPERIMENTAL] InMemoryCredentialService: This feature is experimental and may change or be removed in future versions without notice. It may introduce breaking changes at any time.
+  credential_service = InMemoryCredentialService()
+/config/.gemini/antigravity/scratch/smart-travel-concierge/.venv/lib/python3.13/site-packages/google/adk/auth/credential_service/in_memory_credential_service.py:33: UserWarning: [EXPERIMENTAL] BaseCredentialService: This feature is experimental and may change or be removed in future versions without notice. It may introduce breaking changes at any time.
+  super().__init__()
+INFO:     Started server process [261274]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://127.0.0.1:18081 (Press CTRL+C to quit)
+INFO:     127.0.0.1:47870 - "GET / HTTP/1.1" 404 Not Found
+2026-09-24 09:42:05,431 - INFO - local_storage.py:65 - Creating local session service at /config/.gemini/antigravity/scratch/smart-travel-concierge/app/.adk/session.db
+2026-09-24 09:42:05,442 - INFO - api_server.py:1110 - New session created: 629d2d01-0473-45ac-8d43-aa88770754d8
+INFO:     127.0.0.1:47876 - "POST /apps/app/users/cli-user/sessions HTTP/1.1" 200 OK
+2026-09-24 09:42:05,454 - INFO - envs.py:83 - Loaded .env file for app at /config/.gemini/antigravity/scratch/smart-travel-concierge/.env
+INFO:     127.0.0.1:47880 - "POST /run_sse HTTP/1.1" 200 OK
+/config/.gemini/antigravity/scratch/smart-travel-concierge/.venv/lib/python3.13/site-packages/google/adk/models/llm_request.py:298: UserWarning: [EXPERIMENTAL] feature FeatureName.JSON_SCHEMA_FOR_FUNC_DECL is enabled.
+  declaration = tool._get_declaration()
+2026-09-24 09:42:07,009 - INFO - google_llm.py:255 - Sending out request, model: gemini-flash-latest, backend: GoogleLLMVariant.VERTEX_AI, stream: False
+2026-09-24 09:42:08,854 - INFO - google_llm.py:352 - Response received from the model.
+2026-09-24 09:42:10,167 - INFO - google_llm.py:255 - Sending out request, model: gemini-flash-latest, backend: GoogleLLMVariant.VERTEX_AI, stream: False
+2026-09-24 09:42:11,358 - INFO - google_llm.py:352 - Response received from the model.
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+2026-09-24 09:42:11,567 - INFO - runners.py:2181 - Closing runner...
+2026-09-24 09:42:11,568 - INFO - runners.py:2194 - Runner closed.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [261274]
+=== Starting server at 2026-09-24T09:58:33.119886+00:00 ===
+Command: /config/.gemini/antigravity/scratch/smart-travel-concierge/.venv/bin/adk api_server --host 127.0.0.1 --port 18080 --reload_agents --no-reload .
+CWD: /config/.gemini/antigravity/scratch/smart-travel-concierge
+=== Started server process 266193 ===
+2026-09-24 09:58:34,289 - INFO - service_factory.py:266 - Using in-memory memory service
+2026-09-24 09:58:34,289 - INFO - local_storage.py:89 - Using per-agent session storage rooted at /config/.gemini/antigravity/scratch/smart-travel-concierge
+2026-09-24 09:58:34,290 - INFO - local_storage.py:121 - Using per-agent artifact storage rooted at /config/.gemini/antigravity/scratch/smart-travel-concierge
+/config/.gemini/antigravity/scratch/smart-travel-concierge/.venv/lib/python3.13/site-packages/google/adk/cli/fast_api.py:278: UserWarning: [EXPERIMENTAL] InMemoryCredentialService: This feature is experimental and may change or be removed in future versions without notice. It may introduce breaking changes at any time.
+  credential_service = InMemoryCredentialService()
+/config/.gemini/antigravity/scratch/smart-travel-concierge/.venv/lib/python3.13/site-packages/google/adk/auth/credential_service/in_memory_credential_service.py:33: UserWarning: [EXPERIMENTAL] BaseCredentialService: This feature is experimental and may change or be removed in future versions without notice. It may introduce breaking changes at any time.
+  super().__init__()
+INFO:     Started server process [266193]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://127.0.0.1:18080 (Press CTRL+C to quit)
+INFO:     127.0.0.1:34452 - "GET / HTTP/1.1" 404 Not Found
+2026-09-24 09:58:34,941 - INFO - local_storage.py:65 - Creating local session service at /config/.gemini/antigravity/scratch/smart-travel-concierge/app/.adk/session.db
+2026-09-24 09:58:34,954 - INFO - api_server.py:1110 - New session created: 2536b7ac-1e17-4d75-9083-2a3e58b27ae1
+INFO:     127.0.0.1:34460 - "POST /apps/app/users/cli-user/sessions HTTP/1.1" 200 OK
+2026-09-24 09:58:34,965 - INFO - envs.py:83 - Loaded .env file for app at /config/.gemini/antigravity/scratch/smart-travel-concierge/.env
+INFO:     127.0.0.1:34466 - "POST /run_sse HTTP/1.1" 200 OK
+/config/.gemini/antigravity/scratch/smart-travel-concierge/.venv/lib/python3.13/site-packages/google/adk/models/llm_request.py:298: UserWarning: [EXPERIMENTAL] feature FeatureName.JSON_SCHEMA_FOR_FUNC_DECL is enabled.
+  declaration = tool._get_declaration()
+2026-09-24 09:58:36,483 - INFO - google_llm.py:255 - Sending out request, model: gemini-flash-latest, backend: GoogleLLMVariant.VERTEX_AI, stream: False
+2026-09-24 09:58:44,367 - INFO - google_llm.py:352 - Response received from the model.
+2026-09-24 09:58:44,392 - INFO - google_llm.py:255 - Sending out request, model: gemini-flash-latest, backend: GoogleLLMVariant.VERTEX_AI, stream: False
+2026-09-24 09:58:46,066 - INFO - google_llm.py:352 - Response received from the model.
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+2026-09-24 09:58:46,267 - INFO - runners.py:2181 - Closing runner...
+2026-09-24 09:58:46,267 - INFO - runners.py:2194 - Runner closed.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [266193]
+=== Starting server at 2026-09-24T10:03:57.987343+00:00 ===
+Command: /config/.gemini/antigravity/scratch/smart-travel-concierge/.venv/bin/adk api_server --host 127.0.0.1 --port 18080 --reload_agents --no-reload .
+CWD: /config/.gemini/antigravity/scratch/smart-travel-concierge
+=== Started server process 267557 ===
+2026-09-24 10:03:59,179 - INFO - service_factory.py:266 - Using in-memory memory service
+2026-09-24 10:03:59,180 - INFO - local_storage.py:89 - Using per-agent session storage rooted at /config/.gemini/antigravity/scratch/smart-travel-concierge
+2026-09-24 10:03:59,180 - INFO - local_storage.py:121 - Using per-agent artifact storage rooted at /config/.gemini/antigravity/scratch/smart-travel-concierge
+/config/.gemini/antigravity/scratch/smart-travel-concierge/.venv/lib/python3.13/site-packages/google/adk/cli/fast_api.py:278: UserWarning: [EXPERIMENTAL] InMemoryCredentialService: This feature is experimental and may change or be removed in future versions without notice. It may introduce breaking changes at any time.
+  credential_service = InMemoryCredentialService()
+/config/.gemini/antigravity/scratch/smart-travel-concierge/.venv/lib/python3.13/site-packages/google/adk/auth/credential_service/in_memory_credential_service.py:33: UserWarning: [EXPERIMENTAL] BaseCredentialService: This feature is experimental and may change or be removed in future versions without notice. It may introduce breaking changes at any time.
+  super().__init__()
+INFO:     Started server process [267557]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://127.0.0.1:18080 (Press CTRL+C to quit)
+INFO:     127.0.0.1:49862 - "GET / HTTP/1.1" 404 Not Found
+2026-09-24 10:03:59,810 - INFO - local_storage.py:65 - Creating local session service at /config/.gemini/antigravity/scratch/smart-travel-concierge/app/.adk/session.db
+2026-09-24 10:03:59,824 - INFO - api_server.py:1110 - New session created: a848fb8d-416d-45bb-ad54-e33c1fc74a87
+INFO:     127.0.0.1:49878 - "POST /apps/app/users/cli-user/sessions HTTP/1.1" 200 OK
+2026-09-24 10:03:59,835 - INFO - envs.py:83 - Loaded .env file for app at /config/.gemini/antigravity/scratch/smart-travel-concierge/.env
+INFO:     127.0.0.1:49894 - "POST /run_sse HTTP/1.1" 200 OK
+/config/.gemini/antigravity/scratch/smart-travel-concierge/.venv/lib/python3.13/site-packages/google/adk/models/llm_request.py:298: UserWarning: [EXPERIMENTAL] feature FeatureName.JSON_SCHEMA_FOR_FUNC_DECL is enabled.
+  declaration = tool._get_declaration()
+2026-09-24 10:04:01,480 - INFO - google_llm.py:255 - Sending out request, model: gemini-flash-latest, backend: GoogleLLMVariant.VERTEX_AI, stream: False
+2026-09-24 10:04:02,796 - INFO - google_llm.py:352 - Response received from the model.
+2026-09-24 10:04:04,202 - INFO - google_llm.py:255 - Sending out request, model: gemini-flash-latest, backend: GoogleLLMVariant.VERTEX_AI, stream: False
+2026-09-24 10:04:06,245 - INFO - google_llm.py:352 - Response received from the model.
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+2026-09-24 10:04:06,402 - INFO - runners.py:2181 - Closing runner...
+2026-09-24 10:04:06,402 - INFO - runners.py:2194 - Runner closed.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [267557]
+=== Starting server at 2026-09-24T10:04:09.819214+00:00 ===
+Command: /config/.gemini/antigravity/scratch/smart-travel-concierge/.venv/bin/adk api_server --host 127.0.0.1 --port 18081 --reload_agents --no-reload .
+CWD: /config/.gemini/antigravity/scratch/smart-travel-concierge
+=== Started server process 267642 ===
+2026-09-24 10:04:11,021 - INFO - service_factory.py:266 - Using in-memory memory service
+2026-09-24 10:04:11,022 - INFO - local_storage.py:89 - Using per-agent session storage rooted at /config/.gemini/antigravity/scratch/smart-travel-concierge
+2026-09-24 10:04:11,022 - INFO - local_storage.py:121 - Using per-agent artifact storage rooted at /config/.gemini/antigravity/scratch/smart-travel-concierge
+/config/.gemini/antigravity/scratch/smart-travel-concierge/.venv/lib/python3.13/site-packages/google/adk/cli/fast_api.py:278: UserWarning: [EXPERIMENTAL] InMemoryCredentialService: This feature is experimental and may change or be removed in future versions without notice. It may introduce breaking changes at any time.
+  credential_service = InMemoryCredentialService()
+/config/.gemini/antigravity/scratch/smart-travel-concierge/.venv/lib/python3.13/site-packages/google/adk/auth/credential_service/in_memory_credential_service.py:33: UserWarning: [EXPERIMENTAL] BaseCredentialService: This feature is experimental and may change or be removed in future versions without notice. It may introduce breaking changes at any time.
+  super().__init__()
+INFO:     Started server process [267642]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://127.0.0.1:18081 (Press CTRL+C to quit)
+INFO:     127.0.0.1:51262 - "GET / HTTP/1.1" 404 Not Found
+2026-09-24 10:04:11,641 - INFO - local_storage.py:65 - Creating local session service at /config/.gemini/antigravity/scratch/smart-travel-concierge/app/.adk/session.db
+2026-09-24 10:04:11,651 - INFO - api_server.py:1110 - New session created: 16754f35-1a80-40d7-8b08-6e774a19ef3e
+INFO:     127.0.0.1:51276 - "POST /apps/app/users/cli-user/sessions HTTP/1.1" 200 OK
+2026-09-24 10:04:11,663 - INFO - envs.py:83 - Loaded .env file for app at /config/.gemini/antigravity/scratch/smart-travel-concierge/.env
+INFO:     127.0.0.1:51290 - "POST /run_sse HTTP/1.1" 200 OK
+/config/.gemini/antigravity/scratch/smart-travel-concierge/.venv/lib/python3.13/site-packages/google/adk/models/llm_request.py:298: UserWarning: [EXPERIMENTAL] feature FeatureName.JSON_SCHEMA_FOR_FUNC_DECL is enabled.
+  declaration = tool._get_declaration()
+2026-09-24 10:04:13,252 - INFO - google_llm.py:255 - Sending out request, model: gemini-flash-latest, backend: GoogleLLMVariant.VERTEX_AI, stream: False
+2026-09-24 10:04:14,453 - INFO - google_llm.py:352 - Response received from the model.
+2026-09-24 10:04:14,478 - INFO - google_llm.py:255 - Sending out request, model: gemini-flash-latest, backend: GoogleLLMVariant.VERTEX_AI, stream: False
+2026-09-24 10:04:15,669 - INFO - google_llm.py:352 - Response received from the model.
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+2026-09-24 10:04:15,821 - INFO - runners.py:2181 - Closing runner...
+2026-09-24 10:04:15,821 - INFO - runners.py:2194 - Runner closed.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [267642]
+=== Starting server at 2026-09-24T10:05:51.869204+00:00 ===
+Command: /config/.gemini/antigravity/scratch/smart-travel-concierge/.venv/bin/adk api_server --host 127.0.0.1 --port 18080 --reload_agents --no-reload .
+CWD: /config/.gemini/antigravity/scratch/smart-travel-concierge
+=== Started server process 268122 ===
+2026-09-24 10:05:53,073 - INFO - service_factory.py:266 - Using in-memory memory service
+2026-09-24 10:05:53,073 - INFO - local_storage.py:89 - Using per-agent session storage rooted at /config/.gemini/antigravity/scratch/smart-travel-concierge
+2026-09-24 10:05:53,074 - INFO - local_storage.py:121 - Using per-agent artifact storage rooted at /config/.gemini/antigravity/scratch/smart-travel-concierge
+/config/.gemini/antigravity/scratch/smart-travel-concierge/.venv/lib/python3.13/site-packages/google/adk/cli/fast_api.py:278: UserWarning: [EXPERIMENTAL] InMemoryCredentialService: This feature is experimental and may change or be removed in future versions without notice. It may introduce breaking changes at any time.
+  credential_service = InMemoryCredentialService()
+/config/.gemini/antigravity/scratch/smart-travel-concierge/.venv/lib/python3.13/site-packages/google/adk/auth/credential_service/in_memory_credential_service.py:33: UserWarning: [EXPERIMENTAL] BaseCredentialService: This feature is experimental and may change or be removed in future versions without notice. It may introduce breaking changes at any time.
+  super().__init__()
+INFO:     Started server process [268122]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://127.0.0.1:18080 (Press CTRL+C to quit)
+INFO:     127.0.0.1:50224 - "GET / HTTP/1.1" 404 Not Found
+2026-09-24 10:05:53,691 - INFO - local_storage.py:65 - Creating local session service at /config/.gemini/antigravity/scratch/smart-travel-concierge/app/.adk/session.db
+2026-09-24 10:05:53,700 - INFO - api_server.py:1110 - New session created: 17622113-7ad6-472f-b792-40e7e0d9b799
+INFO:     127.0.0.1:50232 - "POST /apps/app/users/cli-user/sessions HTTP/1.1" 200 OK
+2026-09-24 10:05:53,711 - INFO - envs.py:83 - Loaded .env file for app at /config/.gemini/antigravity/scratch/smart-travel-concierge/.env
+INFO:     127.0.0.1:50246 - "POST /run_sse HTTP/1.1" 200 OK
+/config/.gemini/antigravity/scratch/smart-travel-concierge/.venv/lib/python3.13/site-packages/google/adk/models/llm_request.py:298: UserWarning: [EXPERIMENTAL] feature FeatureName.JSON_SCHEMA_FOR_FUNC_DECL is enabled.
+  declaration = tool._get_declaration()
+2026-09-24 10:05:55,304 - INFO - google_llm.py:255 - Sending out request, model: gemini-flash-latest, backend: GoogleLLMVariant.VERTEX_AI, stream: False
+2026-09-24 10:05:56,271 - INFO - google_llm.py:352 - Response received from the model.
+2026-09-24 10:05:57,939 - INFO - google_llm.py:255 - Sending out request, model: gemini-flash-latest, backend: GoogleLLMVariant.VERTEX_AI, stream: False
+2026-09-24 10:05:58,926 - INFO - google_llm.py:352 - Response received from the model.
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+2026-09-24 10:05:59,137 - INFO - runners.py:2181 - Closing runner...
+2026-09-24 10:05:59,137 - INFO - runners.py:2194 - Runner closed.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [268122]
+=== Starting server at 2026-09-24T10:23:02.068914+00:00 ===
+Command: /config/.gemini/antigravity/scratch/smart-travel-concierge/.venv/bin/adk api_server --host 127.0.0.1 --port 18080 --reload_agents --no-reload .
+CWD: /config/.gemini/antigravity/scratch/smart-travel-concierge
+=== Started server process 272497 ===
+2026-09-24 10:23:03,236 - INFO - service_factory.py:266 - Using in-memory memory service
+2026-09-24 10:23:03,237 - INFO - local_storage.py:89 - Using per-agent session storage rooted at /config/.gemini/antigravity/scratch/smart-travel-concierge
+2026-09-24 10:23:03,237 - INFO - local_storage.py:121 - Using per-agent artifact storage rooted at /config/.gemini/antigravity/scratch/smart-travel-concierge
+/config/.gemini/antigravity/scratch/smart-travel-concierge/.venv/lib/python3.13/site-packages/google/adk/cli/fast_api.py:278: UserWarning: [EXPERIMENTAL] InMemoryCredentialService: This feature is experimental and may change or be removed in future versions without notice. It may introduce breaking changes at any time.
+  credential_service = InMemoryCredentialService()
+/config/.gemini/antigravity/scratch/smart-travel-concierge/.venv/lib/python3.13/site-packages/google/adk/auth/credential_service/in_memory_credential_service.py:33: UserWarning: [EXPERIMENTAL] BaseCredentialService: This feature is experimental and may change or be removed in future versions without notice. It may introduce breaking changes at any time.
+  super().__init__()
+INFO:     Started server process [272497]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://127.0.0.1:18080 (Press CTRL+C to quit)
+INFO:     127.0.0.1:58656 - "GET / HTTP/1.1" 404 Not Found
+2026-09-24 10:23:03,890 - INFO - local_storage.py:65 - Creating local session service at /config/.gemini/antigravity/scratch/smart-travel-concierge/app/.adk/session.db
+2026-09-24 10:23:03,900 - INFO - api_server.py:1110 - New session created: 71752926-2f79-4755-a28d-a87ef69fd82e
+INFO:     127.0.0.1:58658 - "POST /apps/app/users/cli-user/sessions HTTP/1.1" 200 OK
+2026-09-24 10:23:03,915 - INFO - envs.py:83 - Loaded .env file for app at /config/.gemini/antigravity/scratch/smart-travel-concierge/.env
+INFO:     127.0.0.1:58674 - "POST /run_sse HTTP/1.1" 200 OK
+/config/.gemini/antigravity/scratch/smart-travel-concierge/.venv/lib/python3.13/site-packages/google/adk/models/llm_request.py:298: UserWarning: [EXPERIMENTAL] feature FeatureName.JSON_SCHEMA_FOR_FUNC_DECL is enabled.
+  declaration = tool._get_declaration()
+2026-09-24 10:23:05,437 - INFO - google_llm.py:255 - Sending out request, model: gemini-flash-latest, backend: GoogleLLMVariant.VERTEX_AI, stream: False
+2026-09-24 10:23:07,036 - INFO - google_llm.py:352 - Response received from the model.
+2026-09-24 10:23:07,119 - INFO - google_llm.py:255 - Sending out request, model: gemini-flash-latest, backend: GoogleLLMVariant.VERTEX_AI, stream: False
+2026-09-24 10:23:08,650 - INFO - google_llm.py:352 - Response received from the model.
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+2026-09-24 10:23:08,820 - INFO - runners.py:2181 - Closing runner...
+2026-09-24 10:23:08,820 - INFO - runners.py:2194 - Runner closed.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [272497]
+=== Starting server at 2026-09-24T10:23:12.781287+00:00 ===
+Command: /config/.gemini/antigravity/scratch/smart-travel-concierge/.venv/bin/adk api_server --host 127.0.0.1 --port 18080 --reload_agents --no-reload .
+CWD: /config/.gemini/antigravity/scratch/smart-travel-concierge
+=== Started server process 272553 ===
+2026-09-24 10:23:13,958 - INFO - service_factory.py:266 - Using in-memory memory service
+2026-09-24 10:23:13,959 - INFO - local_storage.py:89 - Using per-agent session storage rooted at /config/.gemini/antigravity/scratch/smart-travel-concierge
+2026-09-24 10:23:13,959 - INFO - local_storage.py:121 - Using per-agent artifact storage rooted at /config/.gemini/antigravity/scratch/smart-travel-concierge
+/config/.gemini/antigravity/scratch/smart-travel-concierge/.venv/lib/python3.13/site-packages/google/adk/cli/fast_api.py:278: UserWarning: [EXPERIMENTAL] InMemoryCredentialService: This feature is experimental and may change or be removed in future versions without notice. It may introduce breaking changes at any time.
+  credential_service = InMemoryCredentialService()
+/config/.gemini/antigravity/scratch/smart-travel-concierge/.venv/lib/python3.13/site-packages/google/adk/auth/credential_service/in_memory_credential_service.py:33: UserWarning: [EXPERIMENTAL] BaseCredentialService: This feature is experimental and may change or be removed in future versions without notice. It may introduce breaking changes at any time.
+  super().__init__()
+INFO:     Started server process [272553]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://127.0.0.1:18080 (Press CTRL+C to quit)
+INFO:     127.0.0.1:57568 - "GET / HTTP/1.1" 404 Not Found
+2026-09-24 10:23:14,602 - INFO - local_storage.py:65 - Creating local session service at /config/.gemini/antigravity/scratch/smart-travel-concierge/app/.adk/session.db
+2026-09-24 10:23:14,611 - INFO - api_server.py:1110 - New session created: 69e0cdc5-f4e2-4dc7-ae9e-ea125988e89d
+INFO:     127.0.0.1:57580 - "POST /apps/app/users/cli-user/sessions HTTP/1.1" 200 OK
+2026-09-24 10:23:14,622 - INFO - envs.py:83 - Loaded .env file for app at /config/.gemini/antigravity/scratch/smart-travel-concierge/.env
+INFO:     127.0.0.1:57588 - "POST /run_sse HTTP/1.1" 200 OK
+/config/.gemini/antigravity/scratch/smart-travel-concierge/.venv/lib/python3.13/site-packages/google/adk/models/llm_request.py:298: UserWarning: [EXPERIMENTAL] feature FeatureName.JSON_SCHEMA_FOR_FUNC_DECL is enabled.
+  declaration = tool._get_declaration()
+2026-09-24 10:23:16,164 - INFO - google_llm.py:255 - Sending out request, model: gemini-flash-latest, backend: GoogleLLMVariant.VERTEX_AI, stream: False
+2026-09-24 10:23:17,649 - INFO - google_llm.py:352 - Response received from the model.
+2026-09-24 10:23:17,727 - INFO - google_llm.py:255 - Sending out request, model: gemini-flash-latest, backend: GoogleLLMVariant.VERTEX_AI, stream: False
+2026-09-24 10:23:19,560 - INFO - google_llm.py:352 - Response received from the model.
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+2026-09-24 10:23:19,727 - INFO - runners.py:2181 - Closing runner...
+2026-09-24 10:23:19,727 - INFO - runners.py:2194 - Runner closed.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [272553]
+=== Starting server at 2026-09-24T10:28:22.958855+00:00 ===
+Command: /config/.gemini/antigravity/scratch/smart-travel-concierge/.venv/bin/adk api_server --host 127.0.0.1 --port 18080 --reload_agents --no-reload .
+CWD: /config/.gemini/antigravity/scratch/smart-travel-concierge
+=== Started server process 273923 ===
+2026-09-24 10:28:24,131 - INFO - service_factory.py:266 - Using in-memory memory service
+2026-09-24 10:28:24,131 - INFO - local_storage.py:89 - Using per-agent session storage rooted at /config/.gemini/antigravity/scratch/smart-travel-concierge
+2026-09-24 10:28:24,132 - INFO - local_storage.py:121 - Using per-agent artifact storage rooted at /config/.gemini/antigravity/scratch/smart-travel-concierge
+/config/.gemini/antigravity/scratch/smart-travel-concierge/.venv/lib/python3.13/site-packages/google/adk/cli/fast_api.py:278: UserWarning: [EXPERIMENTAL] InMemoryCredentialService: This feature is experimental and may change or be removed in future versions without notice. It may introduce breaking changes at any time.
+  credential_service = InMemoryCredentialService()
+/config/.gemini/antigravity/scratch/smart-travel-concierge/.venv/lib/python3.13/site-packages/google/adk/auth/credential_service/in_memory_credential_service.py:33: UserWarning: [EXPERIMENTAL] BaseCredentialService: This feature is experimental and may change or be removed in future versions without notice. It may introduce breaking changes at any time.
+  super().__init__()
+INFO:     Started server process [273923]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://127.0.0.1:18080 (Press CTRL+C to quit)
+INFO:     127.0.0.1:40526 - "GET / HTTP/1.1" 404 Not Found
+2026-09-24 10:28:24,780 - INFO - local_storage.py:65 - Creating local session service at /config/.gemini/antigravity/scratch/smart-travel-concierge/app/.adk/session.db
+2026-09-24 10:28:24,790 - INFO - api_server.py:1110 - New session created: c85f3e72-96ca-4ef3-8a35-39d8b0b6e9e1
+INFO:     127.0.0.1:40534 - "POST /apps/app/users/cli-user/sessions HTTP/1.1" 200 OK
+2026-09-24 10:28:24,802 - INFO - envs.py:83 - Loaded .env file for app at /config/.gemini/antigravity/scratch/smart-travel-concierge/.env
+INFO:     127.0.0.1:40544 - "POST /run_sse HTTP/1.1" 200 OK
+/config/.gemini/antigravity/scratch/smart-travel-concierge/.venv/lib/python3.13/site-packages/google/adk/models/llm_request.py:298: UserWarning: [EXPERIMENTAL] feature FeatureName.JSON_SCHEMA_FOR_FUNC_DECL is enabled.
+  declaration = tool._get_declaration()
+2026-09-24 10:28:26,458 - INFO - google_llm.py:255 - Sending out request, model: gemini-flash-latest, backend: GoogleLLMVariant.VERTEX_AI, stream: False
+2026-09-24 10:28:27,722 - INFO - google_llm.py:352 - Response received from the model.
+2026-09-24 10:28:27,752 - INFO - models.py:6224 - AFC is enabled with max remote calls: 10.
+2026-09-24 10:28:27,752 - WARNING - models.py:6228 - Direct use of automatic function calling (AFC) in Models.generate_content is not recommended. Instead, we recommend to use AFC in Chat.send_message. Similarly, direct use of AFC in Models.generate_content_stream is not recommended. Instead, we recommend to use AFC in Chat.send_message_stream.
+2026-09-24 10:28:30,845 - INFO - _client.py:1025 - HTTP Request: POST https://aiplatform.googleapis.com/v1beta1/projects/qwiklabs-gcp-02-3a45c164a8f8/locations/global/publishers/google/models/gemini-3.1-flash-lite-image:generateContent "HTTP/1.1 200 OK"
+/config/.gemini/antigravity/scratch/smart-travel-concierge/app/tools.py:423: RuntimeWarning: coroutine 'Context.save_artifact' was never awaited
+  tool_context.save_artifact(filename=filename, artifact=artifact_part)
+RuntimeWarning: Enable tracemalloc to get the object allocation traceback
+2026-09-24 10:28:33,176 - INFO - google_llm.py:255 - Sending out request, model: gemini-flash-latest, backend: GoogleLLMVariant.VERTEX_AI, stream: False
+2026-09-24 10:28:34,309 - INFO - google_llm.py:352 - Response received from the model.
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+2026-09-24 10:28:34,471 - INFO - runners.py:2181 - Closing runner...
+2026-09-24 10:28:34,471 - INFO - runners.py:2194 - Runner closed.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [273923]
