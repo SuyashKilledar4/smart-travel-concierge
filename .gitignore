@@ -6,3 +6,4 @@ recordings/
 lofi_music.wav
 deployment_metadata.json
 .DS_Store
+.env
