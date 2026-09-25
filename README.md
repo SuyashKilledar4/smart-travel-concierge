@@ -56,11 +56,13 @@ This repository contains the complete implementation of the Smart Travel Concier
    uv sync
    ```
 
-2. Set up required environment variables:
+2. Create a local `.env` file in the repository root using `.env.example` as a reference. Copy the example, then edit `.env` and replace the placeholder values with your own configuration and credentials:
 
    ```bash
-   export GOOGLE_CLOUD_PROJECT="<YOUR_GCP_PROJECT_ID>"
+   cp .env.example .env
    ```
+
+   On Windows PowerShell, use `Copy-Item .env.example .env`. Keep `.env` local and never commit or share it; it is excluded by `.gitignore`. Refer to `.env.example` for the environment variable names and expected format. Set any required values that are not listed there in your shell or deployment environment.
 
 ### Running the Local Agent Playground
 
